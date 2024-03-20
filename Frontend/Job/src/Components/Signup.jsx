@@ -6,7 +6,7 @@ function Signup() {
     <div  style={{marginLeft:"35%" , marginTop:"5%"}}>
     <h1 className=''>SignUp Form</h1>
   <div className='card shadow bg-dark text-light p-2' style={{ width: '25rem' }}>
-    <form>
+    <form action='/login'>
       <div className='row col-md-12'>
         <div className="col-md-6">
           <label htmlFor="firstName" className="form-label">First Name:</label>
