@@ -25,6 +25,10 @@ function Signup() {
         <label htmlFor="password" className="form-label">Password:</label>
         <input type="password" className="form-control" name="password" id="password" />
       </div>
+      <div className="mb-3">
+        <label htmlFor="password" className="form-label">Confirm Password:</label>
+        <input type="password" className="form-control" name="confirmpassword" id="password" />
+      </div>
       <div className='col col-md-6'>
         <label htmlFor="loginAs">Sign up as:</label>
         <select name="dropdown" id="loginAs" style={{ borderRadius: '10px', padding: "5px" }}>
@@ -32,7 +36,7 @@ function Signup() {
           <option value="employer">Employer</option>
         </select>
       </div>
-      <button type="submit" className="btn btn-outline-warning mt-4 justify-content-center">Sign up</button>
+      <button type="submit" className="btn btn-outline-warning mt-4 justify-content-center">Register</button>
     </form>
   </div>
     </div>
