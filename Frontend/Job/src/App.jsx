@@ -2,7 +2,6 @@ import React from 'react'
 import {Routes , Route } from 'react-router-dom'
 import Home from './Components/Home'
 import Navbar from './Components/Navbar'
-import New from './Components/New'
 import Login from './Components/Login'
 import Signup from './Components/Signup'
 function App() {
@@ -11,7 +10,6 @@ function App() {
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />}/>
-          <Route path='/new' element={<New />}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/signup' element={<Signup />}/>
         </Routes>
