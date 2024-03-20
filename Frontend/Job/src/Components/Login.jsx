@@ -4,7 +4,7 @@ function Login() {
   return (
     <div>
       <div className='container'>
-        <div style={{marginLeft: '35%'}}>
+        <div style={{marginLeft: '35%' , marginTop:"5%"}}>
         <h1 className=''>Login Form</h1>
         <div className='card shadow bg-dark text-light p-2' style={{ width: '25rem' }}>
           <form>
