@@ -9,29 +9,29 @@ function Signup() {
     <form action='/login'>
       <div className='row col-md-12'>
         <div className="col-md-6">
-          <label htmlFor="firstName" className="form-label">First Name:</label>
-          <input type="text" className="form-control" id="firstName" name="Fname" aria-describedby="emailHelp" />
+          <label for="firstName" className="form-label">First Name:</label>
+          <input type="text" className="form-control" id="firstName" placeholder='First Name' name="Fname" required />
         </div>
         <div className="col-md-6">
-          <label htmlFor="lastName" className="form-label">Last Name:</label>
-          <input type="text" className="form-control" id="lastName" name="Lname" aria-describedby="emailHelp" />
+          <label for="lastName" className="form-label">Last Name:</label>
+          <input type="text" className="form-control" id="lastName" placeholder='Last Name' name="Lname" required />
         </div>
       </div>
       <div className="mb-3">
-        <label htmlFor="email" className="form-label">Email address:</label>
-        <input type="email" className="form-control" id="email" name="email" aria-describedby="emailHelp" />
+        <label for="email" className="form-label">Email address:</label>
+        <input type="email" className="form-control" id="email" placeholder='abc@gmail.com' name="email" required />
       </div>
       <div className="mb-3">
-        <label htmlFor="password" className="form-label">Password:</label>
-        <input type="password" className="form-control" name="password" id="password" />
+        <label for="password" className="form-label">Password:</label>
+        <input type="password" className="form-control" name="password" id="password" placeholder='********' required/>
       </div>
       <div className="mb-3">
-        <label htmlFor="password" className="form-label">Confirm Password:</label>
-        <input type="password" className="form-control" name="confirmpassword" id="password" />
+        <label for="password" className="form-label">Confirm Password:</label>
+        <input type="password" className="form-control" name="confirmpassword" id="password" placeholder='********' required/>
       </div>
       <div className='col col-md-6'>
-        <label htmlFor="loginAs">Sign up as:</label>
-        <select name="dropdown" id="loginAs" style={{ borderRadius: '10px', padding: "5px" }}>
+        <label for="loginAs">Sign up as:</label>
+        <select name="dropdown" id="loginAs" style={{ borderRadius: '10px', padding: "5px" }} required> 
           <option value="employee">Employee</option>
           <option value="employer">Employer</option>
         </select>
