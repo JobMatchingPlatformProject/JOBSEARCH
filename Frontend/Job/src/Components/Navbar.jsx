@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
       <nav className="d-flex justify-content-between navbar navbar-light bg-light">
           <div>
-              <Link className="btn btn-sm me-2" to={'/'}>React App</Link>
+              <Link className="btn btn-sm me-2" to={'/'}>Carrer Saathi</Link>
           </div>
           <div>
               <Link className="btn btn-outline-success me-2" to={'/login'}>Login</Link>
